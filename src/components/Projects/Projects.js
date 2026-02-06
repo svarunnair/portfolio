@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import leaf from "../../Assets/proj/myShow.png";
+import zara from "../../Assets/proj/zara.png";
 import emotion from "../../Assets/img/linkedin.png";
 import editor from "../../Assets/proj/TqPart.png";
 import chatify from "../../Assets/proj/tqCust.png";
@@ -67,18 +68,17 @@ app store.
 Tech Stacks : react native, java-script , redux, react
 native paper, raysorpay, short.io"
               ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://play.google.com/store/apps/details?id=com.ticketsque.partner"              
+              demoLink="https://play.google.com/store/apps/details?id=com.ticketsque.partner"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={zara}
               isBlog={false}
-              title="BookMyShow Clone"
-              description="A BookMyShow Clone Application built using React Native CLI, replicating the core UI layout and design patterns of the official BookMyShow app.
-This project focuses on delivering a modern, responsive, and user-friendly mobile interface."
-              ghLink="https://github.com/svarunnair/project-70"
+              title="ZARA Clone Website"
+              description="This project is a clone of the Zara clothing brand website, developed using React JS and Material UI. It utilizes a local JSON server to manage and serve stored data, providing a seamless user experience that closely mimics the original Zara website."
+              ghLink="https://github.com/svarunnair/zara.git"
               // demoLink="https://plant49-ai.herokuapp.com/"
             />
           </Col>
@@ -108,7 +108,7 @@ Works on both iOS and Android devices"
               description="A LinkedIn Clone Application developed using React Native CLI, replicating the core UI and layout of the official LinkedIn mobile app.
 This project demonstrates modern mobile UI development with reusable components and responsive design."
               ghLink="https://github.com/svarunnair/project-72"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here
             />
           </Col>
         </Row>
